@@ -22,7 +22,7 @@ const stockProductos = [ producto01, producto02, producto03,producto04, producto
 
 
 document.addEventListener("DOMContentLoaded", () => {
-carrito = JSON.parse(localStorage.getItem("miCompra"))  || [] 
+    carrito = JSON.parse(localStorage.getItem("miCompra")) ?? [] 
     mostrarCompra();
 })
 
@@ -50,6 +50,14 @@ function agregarProducto(codigo){
    const item = stockProductos.find((elemento)=>elemento.codigo === codigo)
     carrito.push(item)
     mostrarCompra()
+    Swal.fire({
+        title: 'Producto agregado al carrito',
+        text: `${item.articulo}`.toUpperCase(),
+        imageUrl: `${item.img}`,
+        imageWidth: 100,
+        imageHeight: 100,
+        imageAlt: 'Custom image',
+      })
 }
 
 const mostrarCompra = () =>{
