@@ -15,7 +15,7 @@ class Producto {
 }
 // Renderizado de Productos - Utilización de Fetch
 stockProductos = []
-const URLJSON= "productos.json"
+const URLJSON= "./productos.json"
 const contenedor = document.getElementById("productos")
 fetch(URLJSON)
 .then(response => response.json())
