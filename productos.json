@@ -1,0 +1,53 @@
+[{
+    "codigo": 1010,
+    "articulo": "Remera",
+    "talle": "M",
+    "color": "Gris",
+    "precio": 1532,
+    "img": "/imagenes/1e3b7da6-4320-4200-b08e-3eee8ab24f62-deea8eec5510b8857f16680878165707-480-0.jpg"
+},
+{
+    "codigo": 1523,
+    "articulo": "Remera",
+    "talle": "M",
+    "color": "Negro",
+    "precio": 2562,
+    "img": "/imagenes/remeranegra.jpg"
+},
+{
+    "codigo": 1017,
+    "articulo": "Remera",
+    "talle": "M",
+    "color": "Verde",
+    "precio": 1532,
+    "img": "/imagenes/3f908ae5-fafa-461a-9831-0575df8b194a-579f11589a4dab6c9d16680877947606-480-0.jpg"
+},
+{
+    "codigo": 1012,
+    "articulo": "Remera",
+    "talle": "M",
+    "color": "Negro con calco",
+    "precio": 1532,
+    "img": "/imagenes/386e8392-1e79-462b-82db-95126b09ac03-7f1b45ba06f9f9dfe316685438202470-480-0.webp"
+},
+{
+    "codigo": 1013,
+    "articulo": "Remera",
+    "talle": "M",
+    "color": "Marrón",
+    "precio": 1532,
+    "img": "/imagenes/4701a816-cdc0-4ae8-956a-5629b90e4084-6e03e789ef5b07b00016687835439148-480-0.webp"
+},
+{
+    "codigo": 1016,
+    "articulo": "Remera",
+    "talle": "M",
+    "color": "Mostaza",
+    "precio": 1532,
+    "img": "/imagenes/c01a94e6-6a2d-4736-8726-71b7dcbb8540-320b2d955e1491a1e216685435220932-480-0.webp"
+}
+    ]
+
+
+
+
